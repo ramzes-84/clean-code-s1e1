@@ -24,10 +24,10 @@ const createNewTaskElement = function(taskString) {
 
   let editButton = document.createElement('button');
   editButton.innerText = 'Edit';
-  editButton.className = 'edit-button';
+  editButton.className = 'edit-button button';
 
   let deleteButton = document.createElement('button');
-  deleteButton.className = 'delete-button';
+  deleteButton.className = 'delete-button button';
 
   let deleteButtonImg = document.createElement('img');
   deleteButtonImg.src = './remove.svg';
